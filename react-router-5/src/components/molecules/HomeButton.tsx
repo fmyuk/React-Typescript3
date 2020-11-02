@@ -1,5 +1,5 @@
-import React, { FC } from "../templates/node_modules/react";
-import { Button, Icon } from "../templates/node_modules/semantic-ui-react";
+import React, { FC } from "react";
+import { Button, Icon } from "semantic-ui-react";
 
 const HomeButton: FC<{ redirectToHome?: () => void }> = ({
   redirectToHome = () => undefined,

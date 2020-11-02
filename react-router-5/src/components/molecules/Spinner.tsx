@@ -1,5 +1,5 @@
-import React, { FC } from "../templates/node_modules/react";
-import { Dimmer, Loader, Segment } from "../templates/node_modules/semantic-ui-react";
+import React, { FC } from "react";
+import { Dimmer, Loader, Segment } from "semantic-ui-react";
 
 import "./Spinner.css";
 

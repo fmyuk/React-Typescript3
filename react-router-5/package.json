@@ -90,5 +90,8 @@
     "src/**/*.css": [
       "stylelint --fix"
     ]
-  }
+  },
+  "main": "index.js",
+  "author": "fumi uk <dcfumiya.238@gmail.com>",
+  "license": "MIT"
 }
