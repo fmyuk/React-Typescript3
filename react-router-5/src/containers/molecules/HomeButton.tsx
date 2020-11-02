@@ -1,5 +1,5 @@
-import React, { FC } from "../../components/templates/node_modules/react";
-import { useHistory } from "react-routers-dom";
+import React, { FC } from "react";
+import { useHistory } from "react-router-dom";
 import HomeButton from "components/molecules/HomeButton";
 
 const EnhancedHomeButton: FC = () => {

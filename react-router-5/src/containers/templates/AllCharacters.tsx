@@ -1,9 +1,9 @@
-import React, { FC } from "../../components/templates/node_modules/react";
+import React, { FC } from "react";
 import { useLocation } from "react-router-dom";
 import { parse } from "query-string";
 
 import AllCharacters from "components/templates/AllCharacters";
-import { charactersData } from "../../components/templates/node_modules/data/characters";
+import { charactersData } from "data/characters";
 
 const EnhancedAllCharacters: FC = () => {
   const { search } = useLocation();
