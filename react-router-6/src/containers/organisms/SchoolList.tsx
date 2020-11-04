@@ -1,7 +1,7 @@
-import React, { FC } from "ßreact";
+import React, { FC } from 'react';
 
-import SchoolList from "components/organisms/SchoolList";
-import { charactersData } from "../../components/templates/node_modules/data/characters";
+import SchoolList from 'components/organisms/SchoolList';
+import { charactersData } from 'data/characters';
 
 const EnhancedSchoolList: FC = () => {
   const schools = Object.keys(charactersData).map((code) => ({
