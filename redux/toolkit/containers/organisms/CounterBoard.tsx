@@ -8,7 +8,7 @@ import EnhancedColorfulBeads from "../molecules/ColorfulBeads";
 const EnhancedCounterBoard: FC = () => {
   const count = useSelector<CounterState, number>((state) => state.count);
   const dispatch = useDispatch();
-  const { added, decremented, incremented } = counterSlice.action;
+  const { added, decremented, incremented } = counterSlice.actions;
 
   return (
     <CounterBoard
